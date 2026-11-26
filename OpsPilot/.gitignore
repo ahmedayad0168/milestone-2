@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+.env
+*.log
+.DS_Store
+# Local runtime artifacts
+data/opspilot.db
+data/chroma/
+data/approvals/*.json
+data/reports/*.csv

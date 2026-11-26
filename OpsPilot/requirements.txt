@@ -1,0 +1,17 @@
+# Agent orchestration / Gemini
+langchain>=1.0,<2.0
+langchain-google-genai>=4.0,<5.0
+
+# LlamaIndex RAG stack (aligned with the supplied LlamaIndex workshop family)
+llama-index-core>=0.14.25,<0.15
+llama-index-embeddings-huggingface>=0.8,<0.9
+llama-index-vector-stores-chroma>=0.6,<0.7
+chromadb>=1.0,<2.0
+sentence-transformers>=5.0,<6.0
+
+# UI and configuration
+gradio>=5.0
+python-dotenv>=1.0
+
+# Development and tests
+pytest>=8.0
